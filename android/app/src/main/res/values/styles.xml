@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="primary">#ffffff</color>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!-- <item name="android:editTextBackground">@drawable/rn_edit_text_material</item> -->
+        <item name="android:windowBackground">
+            @drawable/rn_edit_text_material
+        </item>
+        <item name="android:statusBarColor">
+            @color/primary
+        </item>
+    </style>
+</resources>

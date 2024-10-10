@@ -1,0 +1,8 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "strictNullChecks": false
+  },
+  "include": ["./declarations.d.ts", "./src/**/*"],
+  "exclude": ["./node_modules/react-native/Libraries/NewAppScreen"]
+}
